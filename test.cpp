@@ -6,7 +6,7 @@ namespace test {
 
 	//%
 	void dammy(int32_t height){
-		return 1;
+		return 2;
 	}
 
 

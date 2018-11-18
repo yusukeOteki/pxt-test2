@@ -2,8 +2,8 @@
 namespace test {
 
     //% shim=test::dammy
-    export function dammy(str: number): void {
-        return
+    export function dammy(str: number): number {
+        return 1
     }
     /**
      * Read the current sound level from the microphone
@@ -11,6 +11,6 @@ namespace test {
     //% blockId=test_block
     //% block="Test block"
     export function getSoundLevel(): void {
-        console.log(dammy(2)+"")
+        console.log(dammy(3)+"")
     }
 }
