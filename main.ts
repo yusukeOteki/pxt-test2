@@ -4,8 +4,7 @@ namespace test {
     /**
     *  Writes to the Bluetooth UART service buffer.
     */
-    //% blockId=test block="test uart write %str" blockGap=8
-    //% shim=test::dammy
+    //% blockId=test block="test uart write %str"
     export function dammy(str: number): void {
         console.log("test")
     }
