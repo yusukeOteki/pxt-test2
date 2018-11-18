@@ -3,7 +3,7 @@ namespace test {
 
     //% shim=test::dammy
     export function dammy(str: number): void {
-        console.log(str+"")
+        return
     }
     /**
      * Read the current sound level from the microphone
