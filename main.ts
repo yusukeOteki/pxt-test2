@@ -7,6 +7,6 @@ namespace test {
     //% blockId=test block="test uart write %str"
     //% shim=test::dammy
     export function dammy(str: number): void {
-        console.log("test2")
+        console.log(str+"")
     }
 }
