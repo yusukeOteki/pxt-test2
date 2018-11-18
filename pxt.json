@@ -1,6 +1,6 @@
 {
     "name": "test",
-    "version": "0.0.9",
+    "version": "0.0.7",
     "description": "description",
     "license": "MIT",
     "dependencies": {
@@ -8,7 +8,9 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "test.cpp",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
