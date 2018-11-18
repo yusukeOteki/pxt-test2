@@ -1,6 +1,6 @@
-; code sizes (bytes): 1044 (incl. 0 frags, and 0 lits); src size 0
-; assembly: 748 lines; density: 1044 bytes/stmt
-; total bytes: 205844 (84.8% of 237.0k flash with 36844 free)
+; code sizes (bytes): 1048 (incl. 0 frags, and 0 lits); src size 0
+; assembly: 750 lines; density: 1048 bytes/stmt
+; total bytes: 205848 (84.8% of 237.0k flash with 36840 free)
 ; peep hole pass: 0 instructions removed and 1 updated
 ; peep hole pass: 0 instructions removed and 0 updated
 
@@ -8,8 +8,8 @@
 ; start
     .startaddr 0x32000
     .hex 708E3B92C615A841C49866C975EE5197 ; magic number
-    .hex 2E266E06C296094A ; hex template hash
-    .hex E2CA4C49E9959D88 ; program hash
+    .hex CF04D0A936409857 ; hex template hash
+    .hex 9F6F870E3A4C3580 ; program hash
     .short 1   ; num. globals
     .short 0 ; patched with number of words resulting from assembly
     .word _pxt_config_data
@@ -40,6 +40,7 @@ _main___P1:
     @stackmark locals
 _main___P1_locals:
     movs r0, #0
+    movs r1, #0
     bl test::dammy
     @stackempty locals
 .ret.1:
