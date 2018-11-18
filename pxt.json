@@ -4,17 +4,14 @@
     "description": "description",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.ts",
-        "test.cpp",
-        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true
 }
