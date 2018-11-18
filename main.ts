@@ -4,7 +4,7 @@ namespace test {
     //% blockId=test_block
     //% block="Test block"
     //% shim=test::dammy
-    export function dammy(str: number): void {
+    export function dammy(x: number, y: number): void {
         return 
     }
     /**
